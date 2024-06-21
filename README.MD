@@ -6,7 +6,7 @@
 git clone https://github.com/Anthony-Lionetti/streamlit-vision-ui.git
 ```
 
-**Step 2: Create a Virtual Environment**
+**Step 2: Create a Virtual Environment**\
 (windows)
 ```bash
 python -m venv ds-vision-env
@@ -24,10 +24,10 @@ source ds-vision-env/bin/activate
 pip install streamlit pandas fastai
 ```
 
-**Step 4: Load Model File**
+**Step 4: Load Model File**\
 Add your trained model file into the root folder directory
 
-**Step 5: Edit Variables**
+**Step 5: Edit Variables**\
 In the `app.py` file update `MODEL_PATH` and `ITEM` to your specific project
 
 **Step 5: Start local server**
