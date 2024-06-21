@@ -4,7 +4,7 @@ from util import predict
 import pandas as pd 
 
 MODEL_PATH = 'model_name.pkl'
-ITEM = "Baseball Jersey"
+ITEM = "Example Item"
 
 # ------------ Load your Model ------------ #
 learn = load_learner(MODEL_PATH)
